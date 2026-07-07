@@ -1,0 +1,26 @@
+[
+  {
+    "site_id": "S-005",
+    "site_name": "老街口物資站",
+    "note": "物資車剛到，確定是開放中。",
+    "reporter": "logistics_app",
+    "reported_at": "2026-07-20T22:10:00+08:00",
+    "status_guess": "open"
+  },
+  {
+    "site_id": "S-004",
+    "site_name": "河堤旁臨時給水點",
+    "note": "有人說可能已經沒水了，但不確定是不是同一個點。",
+    "reporter": "unknown",
+    "reported_at": "2026-07-20T22:20:00+08:00",
+    "status_guess": "maybe_closed"
+  },
+  {
+    "site_id": "S-006",
+    "site_name": "光復國小臨時醫療站",
+    "note": "剛剛設立，還沒登記到我們的站點清單。",
+    "reporter": "field_team_partner_org",
+    "reported_at": "2026-07-20T22:30:00+08:00",
+    "status_guess": "new"
+  }
+]

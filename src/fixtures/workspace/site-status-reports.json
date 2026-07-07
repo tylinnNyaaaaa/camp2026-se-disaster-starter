@@ -1,0 +1,46 @@
+[
+  {
+    "id": "SSR-002",
+    "createdAt": "2026-07-20T02:30:00Z",
+    "updatedAt": "2026-07-20T02:30:00Z",
+    "sourceType": "volunteer_update",
+    "verificationStatus": "needs_review",
+    "siteId": "S-001",
+    "suggestedStatus": "reported_closed",
+    "message": "有志工回報集結點現場沒有人、也沒看到公告，懷疑已經關閉，但無法確認。",
+    "reportedByRole": "field_volunteer"
+  },
+  {
+    "id": "SSR-003",
+    "createdAt": "2026-07-20T02:35:00Z",
+    "updatedAt": "2026-07-20T02:35:00Z",
+    "sourceType": "social_post",
+    "verificationStatus": "unverified",
+    "siteId": "S-003",
+    "suggestedStatus": "reported_open",
+    "message": "社群貼文說活動中心雨鞋站其實還在營運，官方公告可能沒更新。",
+    "reportedByRole": "remote_volunteer"
+  },
+  {
+    "id": "event-1535-S-005",
+    "createdAt": "2026-07-20T14:10:00.000Z",
+    "updatedAt": "2026-07-20T14:10:00.000Z",
+    "sourceType": "volunteer_update",
+    "verificationStatus": "needs_review",
+    "siteId": "S-005",
+    "suggestedStatus": "reported_open",
+    "message": "物資車剛到，確定是開放中。",
+    "reportedByRole": "logistics_app"
+  },
+  {
+    "id": "event-1535-S-004",
+    "createdAt": "2026-07-20T14:20:00.000Z",
+    "updatedAt": "2026-07-20T14:20:00.000Z",
+    "sourceType": "volunteer_update",
+    "verificationStatus": "needs_review",
+    "siteId": "S-004",
+    "suggestedStatus": "needs_review",
+    "message": "有人說可能已經沒水了，但不確定是不是同一個點。",
+    "reportedByRole": "未知回報者"
+  }
+]

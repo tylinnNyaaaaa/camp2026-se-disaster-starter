@@ -16,6 +16,11 @@ const validations: Array<readonly [string, z.ZodType<unknown>]> = [
   ["src/fixtures/shared/site-status-reports.json", siteStatusReportsSchema],
   ["src/fixtures/shared/tasks.json", tasksSchema],
   ["src/fixtures/shared/assignments.json", assignmentsSchema],
+  ["src/fixtures/workspace/sites.json", sitesSchema],
+  [
+    "src/fixtures/workspace/site-status-reports.json",
+    siteStatusReportsSchema,
+  ],
 ] as const;
 
 let failed = false;

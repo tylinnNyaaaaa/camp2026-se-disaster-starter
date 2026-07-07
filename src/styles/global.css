@@ -171,6 +171,263 @@ button {
   color: #245d9d;
 }
 
+.phase0-workbench {
+  display: grid;
+  gap: 24px;
+}
+
+.phase0-category-section h3 {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.phase0-category-section__count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #5f6b7a;
+}
+
+.report-intake__form {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #dbe4ef;
+  margin-bottom: 20px;
+}
+
+.report-intake__disclaimer {
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fff3cd;
+  color: #8a5a00;
+  font-size: 0.85rem;
+}
+
+.report-intake__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.report-intake__field {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #344054;
+}
+
+.report-intake__field textarea,
+.report-intake__field input,
+.report-intake__field select {
+  font: inherit;
+  font-weight: 400;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #cfd8e3;
+}
+
+.report-intake__field textarea {
+  min-height: 72px;
+  resize: vertical;
+}
+
+.report-intake__errors {
+  margin: 0;
+  padding-left: 18px;
+  color: #9f1f17;
+  font-size: 0.85rem;
+}
+
+.report-intake__form button {
+  justify-self: start;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 18px;
+  background: #245d9d;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.event-response-panel {
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #f4f7fb;
+}
+
+.event-response-panel h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.event-response-panel__intro {
+  margin: 0 0 10px;
+  color: #5f6b7a;
+  font-size: 0.9rem;
+}
+
+.event-response-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.event-response-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+}
+
+.event-response-item--adapted {
+  background: #eef6ff;
+}
+
+.event-response-item--rejected {
+  background: #fde2e1;
+}
+
+.event-response-item__site {
+  font-weight: 700;
+}
+
+.event-response-item__label {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 8%);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.site-status-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.site-status-card {
+  border: 1px solid #dbe4ef;
+  border-radius: 16px;
+  padding: 16px;
+  background: #fbfcfe;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.site-status-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.site-status-card__header h3 {
+  margin: 0;
+}
+
+.site-status-card__address {
+  margin: 4px 0 0;
+  color: #5f6b7a;
+  font-size: 0.9rem;
+}
+
+.site-status-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #5f6b7a;
+  font-size: 0.85rem;
+}
+
+.site-status-card__no-suggestion {
+  margin: 0;
+  color: #5f6b7a;
+  font-size: 0.9rem;
+}
+
+.site-status-card__decision-note {
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #eef6ff;
+  color: #245d9d;
+  font-size: 0.9rem;
+}
+
+.site-status-card__suggestion {
+  border: 1px dashed #f0b429;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #fffaf0;
+  display: grid;
+  gap: 8px;
+}
+
+.site-status-card__suggestion p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.site-status-card__suggestion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.site-status-card__suggestion-label {
+  font-weight: 700;
+  color: #8a5a00;
+  font-size: 0.85rem;
+}
+
+.site-status-card__suggestion-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #5f6b7a;
+}
+
+.site-status-card__duplicate-note {
+  margin: 0;
+  color: #8a5a00;
+  font-size: 0.85rem;
+}
+
+.site-status-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-status-card__actions button {
+  border: 1px solid #cfd8e3;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.site-status-card__actions button:hover {
+  border-color: #245d9d;
+}
+
 .empty-state,
 .error-state {
   border-radius: 16px;
